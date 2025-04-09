@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-genai.configure(api_key="AIzaSyAr8TJOiua07BEox_KrlgQ6QoZXJaKhL2I")# my api
+genai.configure(api_key="Your API here")# my api
 
 @st.cache_data
 def load_catalog_data():
